@@ -1,0 +1,23 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#separable DMs were read from: /home/julio/Documents/jupyterenvironment/TFM/code/entanglement_2x2/input_data/received_from_DM/pure_states/separable.txt; maximally entangled DMs were read from: /home/julio/Documents/jupyterenvironment/TFM/code/entanglement_2x2/input_data/received_from_DM/pure_states/entangled_1.txt;
+#Architecture of the MLP: [16, 8, 1]; Number of epochs: 100; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#Sucess rate averaged over every simulation and over every sample in the test set: 100.0%
+#Sample standard deviation for averaged success rate: 0.0%
+#Epoch	Loss	Loss sample STD	Val. Loss	V.L. sample STD
+1	0.577930	0.008696	0.408889	0.016643
+2	0.221230	0.017863	0.085108	0.015645
+3	0.037560	0.009017	0.010107	0.002713
+4	0.003734	0.000755	0.000973	0.000197
+5	0.000372	0.000088	0.000113	0.000032
+6	0.000049	0.000019	0.000017	0.000008
+7	0.000008	0.000005	0.000003	0.000002
+8	0.000002	0.000001	0.000001	0.000001
+9	0.000000	0.000000	0.000000	0.000000
+10	0.000000	0.000000	0.000000	0.000000
+11	0.000000	0.000000	0.000000	0.000000
+12	0.000000	0.000000	0.000000	0.000000
+13	0.000000	0.000000	0.000000	0.000000
+14	0.000000	0.000000	0.000000	0.000000
+15	0.000000	0.000000	0.000000	0.000000

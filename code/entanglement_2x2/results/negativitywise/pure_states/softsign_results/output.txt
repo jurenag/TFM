@@ -1,0 +1,50 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 1;
+#Separable DMs were read from: /home/julio/Documents/my_projects/TFM/code/entanglement_2x2/input_data/received_from_DM/pure_states/separable.txt; Entangled DMs were read from: /home/julio/Documents/my_projects/TFM/code/entanglement_2x2/input_data/received_from_DM/pure_states/entangled_1.txt;
+#Architecture of the MLP: [8, 4, 1]; Number of epochs: 40; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: sigmoid; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Batch size: 40; Test tolerance: 0.5; DMs were read with redundancy: False;
+#Sucess rate averaged over every simulation and over every sample in the test set: 99.54988747186798%
+#Sample standard deviation for averaged success rate: 0.10585350311792166%
+#Same average success rate for supplementary tests: [0.5019, 0.50575, 0.5143, 0.55105, 0.76285, 0.7744, 0.76385, 0.7929, 0.834, 0.91675]%
+#Sample STD for averaged success rate in supplementary tests: [0.003535508379285785, 0.003535300111023108, 0.0035340876474699943, 0.003517057701403263, 0.003007572754730964, 0.0029555425897794126, 0.0030031914482763168, 0.0028653934284841235, 0.0026310074116201194, 0.0019534512727478006]%
+#Epoch	Loss	Sample STD
+1	0.700280	0.000000
+2	0.693296	0.000000
+3	0.693237	0.000000
+4	0.693055	0.000000
+5	0.693064	0.000000
+6	0.692974	0.000000
+7	0.692793	0.000000
+8	0.692570	0.000000
+9	0.692295	0.000000
+10	0.691853	0.000000
+11	0.691106	0.000000
+12	0.689925	0.000000
+13	0.687829	0.000000
+14	0.684756	0.000000
+15	0.679810	0.000000
+16	0.671736	0.000000
+17	0.659174	0.000000
+18	0.639191	0.000000
+19	0.607697	0.000000
+20	0.557600	0.000000
+21	0.487118	0.000000
+22	0.404128	0.000000
+23	0.317007	0.000000
+24	0.241784	0.000000
+25	0.184142	0.000000
+26	0.144224	0.000000
+27	0.116240	0.000000
+28	0.095564	0.000000
+29	0.080600	0.000000
+30	0.069180	0.000000
+31	0.059612	0.000000
+32	0.051869	0.000000
+33	0.045339	0.000000
+34	0.039839	0.000000
+35	0.035145	0.000000
+36	0.030882	0.000000
+37	0.027264	0.000000
+38	0.023925	0.000000
+39	0.021110	0.000000
+40	0.018635	0.000000

@@ -1,0 +1,20 @@
+0)
+ESSENTIAL: If you want to perform any modification over these modules you must modify the function files contained in this particular folder. Then replace every copy of the modules folder wherever you want to run a python code using these functions.
+
+1)
+This folder must be contained in the same folder as main.py (or whichever .py you want to launch). I.e., the path to the modules relative to the working directory must be something like:
+from modules.test_functions import function
+from modules.test_read_and_format import function
+
+This is due to the fact that the references to some of the functions file from another functions file (for example, in test_functions.py I need to import some functions of test_read_and_format.py) must be done relative to the directory of main.py. I.e. from test_functions.py I call
+
+from modules.test_read_and_format import whatever
+
+Instead of
+
+from test_read_and_format import whatever
+
+Therefore, In order to preserve such relation between the containing folders of the modules and the containing folder for main.py, the folder modules MUST be contained in the same folder as main.py.
+
+2)
+The order in which I declare functions in the functions files must be arranged so that everytime I call a certain function, such function must have been already defined.

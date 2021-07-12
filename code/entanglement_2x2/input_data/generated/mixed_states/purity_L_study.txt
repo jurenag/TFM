@@ -1,0 +1,10 @@
+#This file contains data of the purity dependency on L. I.e., I will generate M=10^4 random mixed density matrices, each
+#of which is the convex linear combination of L pure random density matrices. This file stores data referred to the
+#purity distribution of such M mixed density matrices. Namely, it stores its arithmetic mean and its standard deviation.
+#L      neg_mean        neg_std     purity_mean     purity_std
+2       0.16630         0.09940     0.70829         0.12671
+3       0.10379         0.08148     0.57499         0.10386
+4       0.06299         0.06343     0.49553         0.08218
+5       0.03938         0.05115     0.44819         0.06814
+6       0.02388         0.03877     0.41466         0.05711
+7       0.01504         0.02999     0.39232         0.04964

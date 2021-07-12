@@ -1,0 +1,3 @@
+OBSERVACIONES:
+
+Los estados máximamente entrelazados no eran bien clasificados por una red con demasiada complejidad (más de [16,8,1], en cambio los estados que no son máximamente entrelazados son clasificados de puta madre por redes más complejas (?)

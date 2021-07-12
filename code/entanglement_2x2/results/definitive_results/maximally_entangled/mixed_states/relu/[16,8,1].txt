@@ -1,0 +1,44 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#Separable DMs were read from: /home/julio/Documents/jupyterenvironment/TFM/code/entanglement_2x2/input_data/received_from_DM/mixed_states/mixed_separable.txt; Maximally entangled DMs were read from: /home/julio/Documents/jupyterenvironment/TFM/code/entanglement_2x2/input_data/received_from_DM/mixed_states/mixed_entangled.txt;
+#Architecture of the MLP: [16, 8, 1]; Number of epochs: 100; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#tf.Keras.callbacks.EarlyStopping was used with: metric:val_loss; Epochs patience:25; Minimum improvement:0.001;
+#Sucess rate averaged over every simulation and over every sample in the test set: 100.0%
+#Sample standard deviation for averaged success rate: 0.0%
+#Epoch	Loss	Loss sample STD	Val. Loss	V.L. sample STD
+1	0.576946	0.008453	0.400149	0.015780
+2	0.208503	0.013548	0.075373	0.011267
+3	0.033563	0.008006	0.014130	0.005856
+4	0.006990	0.003585	0.004042	0.002612
+5	0.002175	0.001567	0.001560	0.001236
+6	0.000897	0.000762	0.000724	0.000639
+7	0.000408	0.000370	0.000331	0.000303
+8	0.000179	0.000167	0.000167	0.000157
+9	0.000078	0.000073	0.000067	0.000063
+10	0.000035	0.000033	0.000033	0.000031
+11	0.000014	0.000013	0.000012	0.000012
+12	0.000005	0.000005	0.000006	0.000006
+13	0.000002	0.000002	0.000002	0.000002
+14	0.000001	0.000001	0.000001	0.000001
+15	0.000000	0.000000	0.000000	0.000000
+16	0.000000	0.000000	0.000000	0.000000
+17	0.000000	0.000000	0.000000	0.000000
+18	0.000000	0.000000	0.000000	0.000000
+19	0.000000	0.000000	0.000000	0.000000
+20	0.000000	0.000000	0.000000	0.000000
+21	0.000000	0.000000	0.000000	0.000000
+22	0.000000	0.000000	0.000000	0.000000
+23	0.000000	0.000000	0.000000	0.000000
+24	0.000000	0.000000	0.000000	0.000000
+25	0.000000	0.000000	0.000000	0.000000
+26	0.000000	0.000000	0.000000	0.000000
+27	0.000000	0.000000	0.000000	0.000000
+28	0.000000	0.000000	0.000000	0.000000
+29	0.000000	0.000000	0.000000	0.000000
+30	0.000000	0.000000	0.000000	0.000000
+31	0.000000	0.000000	0.000000	0.000000
+32	0.000000	0.000000	0.000000	0.000000
+33	0.000000	0.000000	0.000000	0.000000
+34	0.000000	0.000000	0.000000	0.000000
+35	0.000000	0.000000	0.000000	0.000000
